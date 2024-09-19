@@ -1,0 +1,98 @@
+.khoi1 {
+  float: left;
+  width: 50%; /* Chiếm 50% chiều rộng màn hình */
+  box-sizing: border-box; /* Tính cả padding và border trong width */
+  border: 7px; /* Border dày 7px */
+  padding: 7%; /* Padding 15px */
+  color: #7d7d7d;
+
+  text-align: left;
+}
+
+.khoi2 {
+  box-sizing: border-box;
+  float: right;
+  width: 50%; /* Chiếm 50% chiều rộng màn hình */
+  box-sizing: border-box; /* Tính cả padding và border trong width */
+  color: #877474;
+  padding-right: 6%;
+}
+img {
+  padding-right: 25%;
+  width: 90%;
+}
+.contain {
+  padding: auto;
+  padding-top: 3%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.textbook {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Điều chỉnh kích thước tối đa nếu cần */
+}
+
+#password {
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px; /* Khoảng cách bên phải để có không gian cho biểu tượng */
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
+.eye-icon::before {
+  content: "\1F441"; /* Biểu tượng con mắt mở, thay đổi nếu cần */
+}
+input {
+  max-width: 100%; /* Chiều rộng tối đa của input không vượt quá 100% chiều rộng của phần tử chứa */
+  box-sizing: border-box; /* Tính cả padding và border trong chiều rộng và chiều cao của phần tử */
+  display: block; /* Hiển thị phần tử dưới dạng khối (block), chiếm toàn bộ chiều rộng của phần tử chứa */
+  width: 100%; /* Chiều rộng của input là 100% chiều rộng của phần tử chứa */
+  height: 48px; /* Chiều cao của input là 48px */
+  padding: 6px 12px; /* Padding trên và dưới là 6px, padding trái và phải là 12px */
+  font-size: 14px; /* Kích thước chữ là 14px */
+  line-height: 1.5; /* Khoảng cách giữa các dòng văn bản là 1.5 lần kích thước font-size */
+  color: #555; /* Màu văn bản là #555 (màu xám đậm) */
+  background-color: #fff; /* Màu nền của input là trắng (#fff) */
+  border: 1px solid #bad4f3; /* Đường viền 1px, màu xanh nhạt (#bad4f3) */
+  border-radius: 4px; /* Bo góc viền với bán kính 4px */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); /* Đổ bóng bên trong với độ mờ 0.075 */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Hiệu ứng chuyển tiếp cho border-color và box-shadow trong 0.15 giây */
+  padding-right: 15%; /* Padding bên phải là 15% chiều rộng của phần tử */
+}
+button {
+  width: auto;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  height: 40px;
+  background-color: #030659;
+}
+.button:hover {
+  background-color: #efeff7;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.eye-icon::before {
+  content: "\1F441"; /* Biểu tượng con mắt bằng Unicode. Thay đổi nếu cần */
+}
