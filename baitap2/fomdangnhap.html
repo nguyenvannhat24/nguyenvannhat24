@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh; /* Chiều cao toàn bộ viewport */
+        display: flex; /* Sử dụng Flexbox */
+        background-color: #f0f0f0;
+      }
+
+      .khoi1 {
+        width: 44%; /* Mỗi khối chiếm một nửa chiều rộng */
+        padding: 3%;
+
+        float: left;
+
+        font-size: 30px;
+      }
+
+      .khoi2 {
+        width: 50%; /* Mỗi khối chiếm một nửa chiều rộng */
+
+        float: right;
+      }
+
+      .khoi:nth-child(2) {
+        display: flex; /* Căn giữa nội dung */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center; /* Căn giữa theo chiều dọc */
+      }
+      input {
+        width: 300px;
+        height: 40px;
+      }
+
+      img {
+        max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của khối */
+        height: auto; /* Tự động điều chỉnh chiều cao */
+      }
+      a {
+        text-decoration: none;
+      }
+      .btn {
+        background-color: #007bff; /* Màu xanh cho nút */
+        color: white; /* Màu chữ trắng */
+        border: none; /* Không có viền */
+        padding: 10px 20px; /* Khoảng cách bên trong nút */
+        font-size: 16px; /* Kích thước chữ */
+        cursor: pointer; /* Hiển thị con trỏ khi di chuột */
+        border-radius: 5px; /* Bo góc cho nút */
+        transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="khoi1">
+        <div class="link">
+          <a href="">&lt; quay lại trang chủ</a>
+        </div>
+
+        <h2 style="font-family: 'Times New Roman', Times, serif">Đăng Nhập</h2>
+
+        <div class="nametitle">
+          <p>Email đăng nhập</p>
+        </div>
+
+        <div class="name input">
+          <input type="text" placeholder="vui lòng nhập mail" />
+        </div>
+        <div class="nametitle">
+          <p>Mật Khẩu</p>
+        </div>
+        <div class="name input">
+          <input type="password" placeholder="Vui lòng nhập mật khẩu" />
+        </div>
+
+        <br />
+        <br />
+
+        <div class="button">
+          <button
+            class="btn"
+            type="submit"
+            style="
+              background-image: url(https://bienchinhchu.com/images/userlogin1.png);
+              width: 200px;
+              height: 40px;
+            "
+          >
+            Đăng Nhập
+          </button>
+        </div>
+
+        <p>bạn chưa có tài khoản <a href="#">Đăng ký </a></p>
+      </div>
+      <div class="khoi2">
+        <img
+          src="https://bienchinhchu.com/images/userlogin1.png"
+          alt="Hình ảnh đăng nhập"
+        />
+      </div>
+    </div>
+  </body>
+</html>
