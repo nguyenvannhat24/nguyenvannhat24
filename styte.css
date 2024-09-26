@@ -96,3 +96,6 @@ button {
 .eye-icon::before {
   content: "\1F441"; /* Biểu tượng con mắt bằng Unicode. Thay đổi nếu cần */
 }
+body {
+  background-color: #dcd4d4;
+}
