@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout_grid</title>
+    <style>
+      .conta {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        padding: 10px;
+      }
+      .contain {
+        background-color: antiquewhite;
+      }
+      .khoi1 {
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain" style="text-align: center">
+      <h2>header</h2>
+      <div class="conta">
+        <div class="khoi1" style="background-color: rgb(218, 145, 50)">
+          column
+        </div>
+        <div class="khoi1" style="background-color: rgb(233, 228, 223)">
+          column
+        </div>
+        <div class="khoi1" style="background-color: rgb(212, 208, 203)">
+          column
+        </div>
+      </div>
+      <div class="khoi2">column</div>
+    </div>
+  </body>
+</html>
