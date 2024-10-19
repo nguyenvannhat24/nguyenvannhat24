@@ -1,0 +1,444 @@
+.layout1 {
+  background-image: url("Rectangle\ 1336.png");
+  height: 90px;
+  width: 1440px;
+  margin: auto;
+  display: flex;
+}
+.LOGO {
+  margin-left: 70px;
+  margin-top: 28px;
+}
+.LOGO img {
+  height: 34px;
+  width: 128px;
+}
+.frameButon {
+  display: flex;
+  margin-top: 33px;
+  margin-left: 600px;
+  width: 24px;
+  width: 460px;
+  gap: 16px;
+  position: relative;
+}
+.buttonpage {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.buttonpage h3 {
+  height: 24px;
+  margin-top: 0px;
+  color: white;
+  font-size: 16px;
+}
+.Frame {
+  position: absolute;
+  right: 48px;
+}
+.buttonSign {
+  margin-top: 20px;
+}
+.buttonSign button {
+  width: 126px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-image: url("Rectangle\ 1336.png");
+  border: 0.5px solid white;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.layout2 {
+  background-image: url("Rectangle\ 1338.png");
+  width: 1440px;
+  height: 579px;
+  margin: auto;
+  position: relative;
+}
+.LeftFrame {
+  width: 599px;
+  height: 330px;
+
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+.LeftFrame h1 {
+  color: white;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300; /* Độ dày chữ nhẹ */
+}
+.chudau img {
+  width: 586.98px;
+  height: 134px;
+}
+.chu2 img {
+  width: 598px;
+  height: 48px;
+  margin-top: 20px;
+}
+.phancuoi {
+  margin-top: 30px;
+  display: flex;
+}
+.phancuoi button {
+  border: none;
+  width: 185.31px;
+  height: 54px;
+  border-radius: 5px;
+  background-color: rgba(252, 217, 128, 1);
+  cursor: pointer;
+}
+.phancuoi p {
+  color: white;
+  font-weight: 300;
+  font-size: 17px;
+  margin-left: 35px;
+}
+.phancuoi img {
+  width: 20px;
+  height: 16px;
+  margin-top: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.RinghtFrame {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  width: 577px;
+  height: 370.97px;
+}
+.conntainBagroud {
+  position: relative;
+}
+.anh1 img {
+  position: absolute;
+  width: 467.2px;
+  height: 325.8px;
+  right: 30px;
+}
+.anh3 {
+  background-image: url("Group\ 2535.png");
+  width: 192.25px;
+  height: 199.99px;
+  position: absolute;
+  top: 165px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.anh2 {
+  background-image: url("Group\ 2618.png");
+  width: 111px;
+  height: 110.97px;
+  position: absolute;
+  top: 260px;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.layout3 {
+  width: 1440px;
+  height: 231px;
+  background-color: rgba(238, 244, 250, 1);
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+.statistik {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  display: flex;
+  width: 416px;
+  height: 71px;
+  gap: 29px;
+}
+.h1 img {
+  width: 123px;
+  height: 69px;
+}
+.h2 img {
+  width: 123px;
+  height: 69px;
+}
+.h3 img {
+  width: 105px;
+  height: 69px;
+}
+.parment {
+  width: 834px;
+  height: 34px;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  display: flex;
+  gap: 32px;
+}
+.layout4 {
+  width: 1300px;
+  height: 850px;
+  margin: auto;
+  margin-top: 20px;
+
+  position: relative;
+}
+.text {
+  position: absolute;
+  margin: auto;
+  left: 320px;
+  top: 40px;
+}
+.containstep {
+  width: 1300px;
+  height: 650px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.step {
+  background-color: rgba(244, 246, 252, 1);
+  width: 405px;
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+.step p {
+  font-size: 20px;
+  color: (40, 41, 56, 1);
+  opacity: 80%;
+}
+.step h1 {
+  margin: 0px 0px;
+  margin-top: 20px;
+  color: rgba(40, 41, 56, 1);
+  font-size: 24px;
+}
+.step img {
+  height: 40px;
+  width: 40px;
+}
+.layout5 {
+  margin: auto;
+  margin-top: 200px;
+  width: 1299px;
+  height: 398px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.A_text {
+  width: 624px;
+  height: 278px;
+}
+.anh {
+  width: 575px;
+  height: 398px;
+  background-image: url("unsplash_vbxyFxlgpjM.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.layout6 {
+  width: 1300px;
+  height: 133px;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(145, 143, 143, 0.2);
+}
+.B_text {
+  height: 133px;
+  width: 350px;
+}
+.A_button {
+  height: 133px;
+  width: 360px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#select {
+  width: 112px;
+  height: 27px;
+  border: none;
+  font-size: 18px; /* Tăng kích thước chữ */
+  text-align: center; /* Căn giữa chữ theo chiều ngang */
+  text-align-last: center; /* Đảm bảo tùy chọn đã chọn được căn giữa */
+  cursor: pointer;
+}
+.A_button button {
+  width: 185px;
+  height: 54px;
+  font-size: 18px;
+  border: none;
+  background-color: rgba(252, 217, 128, 1);
+  cursor: pointer;
+}
+.layout7 {
+  width: 1300px;
+  height: 418px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.infor {
+  width: 386px;
+  height: 418px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  opacity: 80%;
+}
+.infor:hover {
+  opacity: 100%;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+}
+.Sao {
+  width: 63px;
+  height: 25px;
+  position: absolute;
+  background-image: url("Group\ 2569.png");
+  right: 0;
+  top: 223px;
+}
+.layout8 {
+  width: 1440px;
+  height: 367px;
+  background-color: rgba(238, 244, 250, 1);
+  margin: auto;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.C_text {
+  display: flex;
+  width: 1293px;
+  height: 145px;
+  justify-content: space-between;
+}
+.textleft {
+  width: 346px;
+  height: 145px;
+}
+.textleft h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.textleft p {
+  opacity: 70%;
+}
+
+.textRinght {
+  width: 843px;
+  height: 108px;
+}
+.textRinght h1 {
+  font-size: 32px;
+  margin: 0px 0px;
+  opacity: 70%;
+}
+.avata {
+  position: absolute;
+  width: 700px;
+  height: 52px;
+  right: 180px;
+  top: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectlc1 {
+  opacity: 50%;
+  cursor: pointer;
+}
+#sl2 {
+  opacity: 100%;
+}
+.layout9 {
+  width: 1284.14px;
+  height: 535px;
+  margin: auto;
+  margin-top: 200px;
+}
+.layout10 {
+  width: 1301px;
+  height: 691px;
+  margin: auto;
+  margin-top: 200px;
+}
+.layout10 img {
+}
+/* phần dành cho điện thoại */
+.layout11 {
+  width: 1301px;
+  height: 682px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 150px;
+}
+.tren {
+  width: 1301px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+.tren p {
+  font-size: 18px;
+  opacity: 70%;
+  cursor: pointer;
+}
+.khoahoc {
+  display: flex;
+  justify-content: space-between;
+  width: 1301px;
+  height: 561px;
+}
+.anhkhoahoc {
+  width: 405px;
+  height: 561px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.anhkhoahoc:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.layout12 {
+  width: 1440px;
+  height: 440px;
+  margin: auto;
+  margin-top: 20px;
+}
+body {
+  background-color: rgb(243, 240, 240);
+}
+.contain {
+  width: 1440px;
+  background-color: white;
+  margin: auto;
+}
