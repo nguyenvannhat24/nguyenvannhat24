@@ -1,10 +1,8 @@
 body {
-  display: flex;
-
-  justify-content: center;
 }
 .body {
-  width: 800px;
+  width: 1372px;
+  margin: auto;
   height: auto;
   background-color: white;
   display: flex;
@@ -13,18 +11,19 @@ body {
   justify-content: start;
 }
 .tapbas {
+  width: 1200px;
   margin-top: 20px;
-  height: 30px;
+  height: 34px;
   display: flex;
+  justify-content: space-between;
 }
 .cacluachon {
-  justify-content: end;
-  width: 100%;
+  width: 645px;
+  height: 20px;
   display: flex;
-  justify-content: space-arounds;
-  gap: 20px;
-  margin-right: 80px;
+  gap: 50px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,11 +32,12 @@ body {
 }
 .logo img {
   margin-left: 80px;
-  height: 15px;
-  width: 60px;
+  height: 34px;
+  width: 120px;
 }
 .cacluachon p {
-  font-size: 12px;
+  font-size: 20px;
+  cursor: pointer;
 }
 .khoithunhat {
   position: relative;
@@ -45,46 +45,50 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  width: 1372px;
+  height: 608px;
 }
 .khoithunhat img {
-  height: 250px;
-  width: 425px;
+  height: 512px;
+  width: 754px;
   z-index: 1;
 }
 .khoithunhat .A_Digital {
-  width: 300px;
+  width: 471px;
+  height: 265px;
   margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .A_Digital button {
   border: none;
   background-color: #2639ed;
-  border-radius: 25px;
-  height: 30px;
-  width: 100px;
+  border-radius: 32px;
+  height: 65px;
+  width: 215px;
   color: white;
   font-size: 11px;
 }
 .khoithunhat .hinhtron {
   position: absolute;
-  top: 0;
-  right: 400px;
+  top: 47px;
+  left: 550px;
   background-image: url("Ellipse\ 85.png");
-  width: 60px;
-  height: 60px;
+  width: 129px;
+  height: 129px;
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 0;
 }
 .A_Digital p {
-  font-size: 10px;
-  line-height: 15px;
 }
 .khoithunhat .bagro {
   position: absolute;
   background-image: url("Dot\ Ornament.png");
-  height: 60px;
-  width: 400px;
-  top: 185px;
+  height: 154px;
+  width: 404px;
+  top: 420px;
   left: 40px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -105,8 +109,8 @@ body {
   top: 200px;
 }
 .Khoithu2 {
-  width: 700px;
-  height: 70px;
+  width: 1199.55px;
+  height: 124px;
   margin: 0 auto;
   margin-top: 60px;
   display: flex;
@@ -120,182 +124,325 @@ body {
 #tp1 {
   width: 150px;
 }
+.logo_concact img {
+  width: 150px;
+  height: 50px;
+}
 #tp1 img {
-  width: 100px;
-  height: 17px;
+  width: 189px;
+  height: 49px;
 }
 #tp1 p {
-  width: 17 0px;
-  font-size: 10px;
+  width: 250px;
+  height: 58px;
+  font-size: 20px;
   color: #757575;
 }
 .khoithu3 {
-  height: 550px;
-  width: 700px;
+  height: 867px;
+  width: 1358px;
   margin: 0 auto;
+  margin-top: 20px;
   position: relative;
 }
-.relang {
-  position: absolute;
-  background-image: url("Rectangle\ 23.png");
-  height: 90px;
-  width: 100px;
-  top: 180px;
-  left: 2px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: rotate(180deg);
-}
-
 .relang25 {
   position: absolute;
+  right: 0;
+  top: 150px;
+  z-index: 1;
+}
+.relang25 img {
+  width: 1047px;
+  height: 619px;
+}
+.sp {
+  width: 308px;
+  height: 379px;
+}
 
-  height: 150px;
-  width: 500px;
-  top: 100px; /* Giữ nguyên hoặc điều chỉnh nếu cần */
-  right: 0; /* Đặt sát bên phải */
+.group1 {
+  position: absolute;
+  left: 500px;
+  top: 10px;
   z-index: 2;
   background-size: contain;
   background-repeat: no-repeat;
-  /* Thêm margin hoặc padding nếu cần */
-}
-.relang25 img {
-  height: 330px;
-  width: 500px;
-}
-.group1 {
-  position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 280px;
-  top: 50px;
-  z-index: 2;
-}
-.group1 img {
-  height: 250px;
-  width: 200px;
 }
 .group2 {
   position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 460px;
-  top: 20px;
+  right: 190px;
+  top: -35px;
   z-index: 2;
-}
-.group2 img {
-  height: 250px;
-  width: 200px;
 }
 .group3 {
   position: absolute;
+  left: 500px;
 
-  height: 150px;
-  width: 500px;
-
-  left: 280px;
-
-  top: 260px;
+  top: 450px;
   z-index: 2;
-}
-.group3 img {
-  height: 250px;
-  width: 200px;
 }
 .group4 {
   position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 460px;
-  top: 230px;
+  right: 190px;
+  top: 400px;
   z-index: 2;
-}
-.group4 img {
-  height: 250px;
-  width: 200px;
 }
 .group5 {
   position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 30px;
-  top: 370px;
-  z-index: 1;
-}
-.group5 img {
-  height: 80px;
-  width: 250px;
+  width: 405px;
+  height: 154px;
+  top: 700px;
+  left: 100px;
 }
 .group6 {
   position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 580px;
-  top: 400px;
-  z-index: 1;
-}
-.group6 img {
-  height: 80px;
-  width: 80px;
+  right: 78px;
+  top: 730px;
+  width: 120px;
+  height: 120px;
+  z-index: 0;
 }
 .group7 {
   position: absolute;
-
-  height: 150px;
-  width: 500px;
-  left: 40px;
-  top: 200px;
-  z-index: 3;
-}
-.group7 img {
-  height: 100px;
-  width: 240px;
+  width: 396px;
+  height: 180px;
+  top: 400px;
+  z-index: 2;
+  left: 100px;
 }
 .khoithu4 {
-  width: 700px;
-  height: 250px;
-  margin: 0 auto;
+  width: 1200px;
+  height: 436px;
+  margin: auto;
+  margin-top: 90px;
   position: relative;
 }
 #tron {
   position: absolute;
-  top: 160px;
-  left: 220px;
   z-index: 0;
+  width: 129px;
+  height: 129px;
+  top: 300px;
+  left: 450px;
+  background-image: url("Ellipse 86.png");
 }
 #tron img {
-  height: 70px;
-  width: 70px;
-}
-#anh1 {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-}
-#anh1 img {
-  width: 300px;
-  height: 230px;
 }
 #vuong {
   position: absolute;
+  width: 178px;
+  height: 178px;
   top: 50px;
-  left: 320px;
-  z-index: 1;
+  left: 650px;
 }
-#vuong img {
-  width: 100px;
-  height: 100px;
+#anh1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 620px;
+  height: 422px;
+  background-image: url("unsplash_bzqU01v-G54.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 .khoitext {
   position: absolute;
-  top: 40px;
-  left: 350px;
+  right: -30px;
+  top: 50px;
+  width: 532px;
+  height: 222px;
+}
+.khoitext h2 {
+  font-size: 50px;
+}
+.khoithu5 {
+  margin: auto;
+  margin-top: 40px;
+  width: 1264px;
+  height: 597px;
+
+  position: relative;
+}
+.title1 {
+  width: 588px;
+  height: 100px;
+
+  margin: auto;
+  text-align: center;
+}
+.anh2 {
+  width: 389px;
+  height: 389px;
+  position: absolute;
+  top: 180px;
+  left: 5px;
+  z-index: 1;
+}
+.anh2 img {
+}
+.tron93 {
+  width: 184px;
+  height: 184px;
+  position: absolute;
+  right: 170px;
+  top: 280px;
+}
+.layout {
+  position: absolute;
+  width: 412px;
+  height: 185px;
   z-index: 2;
+  top: 290px;
+  left: 460px;
+}
+.slide {
+  margin-top: 30px;
+  width: 240px;
+  height: 16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.sl {
+  opacity: 40%;
+  cursor: pointer;
+}
+.tron94 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 480px;
+  z-index: 0;
+}
+.anh71 {
+  position: absolute;
+  top: 180px;
+  right: 0px;
+}
+.khoithu6 {
+  width: 1272px;
+  height: 387px;
+  margin: auto;
+  margin-top: 100px;
+
+  position: relative;
+}
+
+.nen {
+  position: absolute;
+  background-color: rgba(244, 249, 255, 1);
+  width: 1197px;
+  height: 292px;
+  left: 37px;
+  top: 45px;
+  z-index: 1;
+  border-radius: 40px;
+}
+.xanh {
+  position: absolute;
+  width: 543px;
+  height: 292px;
+  background-image: url("Rectangle\ 31.png");
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 45px;
+  right: 0px;
+}
+.nut {
+  position: absolute;
+  top: 160px;
+  background-color: white;
+  width: 479px;
+  height: 80px;
+  right: 140px;
+  z-index: 2;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nut button {
+  width: 188px;
+  height: 60px;
+  background-color: rgba(38, 57, 237, 1);
+  margin-right: 20px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+.nut button:hover {
+  box-shadow: 4px 4px 6px 4px #422298;
+}
+.group73 {
+  position: absolute;
+  right: 0;
+  background-image: url("Group\ 73.png");
+  width: 175px;
+  height: 154px;
+}
+.group32 {
+  position: absolute;
+  left: 0;
+  top: 220px;
+  background-image: url("Rectangle\ 32.png");
+  width: 175px;
+  height: 154px;
+  z-index: 0;
+}
+.chu {
+  position: absolute;
+  width: 600px;
+
+  top: 120px;
+  left: 100px;
+
+  z-index: 2;
+}
+.khoithu7 {
+  width: 1200px;
+  height: 348px;
+  margin: auto;
+  margin-top: 20px;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.text {
+  width: 230px;
+  height: 190px;
+}
+.text1 {
   width: 300px;
-  height: 110px;
+}
+.text5 {
+  width: 180px;
+}
+.text5 {
+  width: 120px;
+}
+.benphai {
+  display: flex;
+}
+.khoithu7 h1 {
+  font-size: 30px;
+  opacity: 90%;
+}
+.khoithu7 p {
+  font-size: 15px;
+  opacity: 70%;
+}
+.logocuoi {
+  position: absolute;
+  width: 120px;
+  height: 36px;
+
+  top: 300px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
 }
